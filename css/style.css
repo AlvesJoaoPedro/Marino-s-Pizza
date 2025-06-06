@@ -24,7 +24,7 @@ header, main, footer {
 }
 
 header {
-  background-color: #25170f;
+  background-color: #312113;
   padding: 1rem 0;
 }
 
@@ -57,7 +57,7 @@ header {
 }
 
 .hero {
-  background-image: url('../imgs/hero-img.png');
+  background-image: url('../imgs/pizzaBanner.png');
   background-size: cover;
   background-position: 50% 30%;
   color: white;
@@ -70,57 +70,39 @@ header {
   margin-bottom: 10px;
 }
 
-.section-title {
-  text-align: center;
-  font-size: 2rem;
-  margin: 40px 0 20px;
-}
-
-.cardapio {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 30px;
-  padding-bottom: 40px;
-}
-
-.pizza-card {
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  text-align: center;
-  padding: 20px;
-}
-
-.pizza-card img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  max-height: 200px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-
-.pizza-card h3 {
-  margin: 15px 0 5px;
-}
-
-.pizza-card p {
-  font-size: 0.95rem;
-}
-
-.preco {
-  display: block;
-  margin-top: 10px;
-  font-weight: bold;
-  color: #e63946;
-  font-size: 1.1rem;
-}
-
 footer {
   background-color: #1e1e1e;
   color: white;
   text-align: center;
   padding: 20px 0;
+}
+
+.promocoes {
+  padding: 2rem 0;
+}
+
+.promo-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas:
+    "principal lateral"
+    "inferior inferior";
+  gap: 1rem;
+}
+
+.banner-principal {
+  grid-area: principal;
+}
+
+.banners-laterais {
+  grid-area: lateral;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.promo-grid img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
 }
