@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pizzaria Marino's</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/popup.css" />
 </head>
 <body>
   <header>
@@ -13,8 +14,8 @@
         <img src="imgs/marino_s icon.png" alt="Logo Marino's" />
       </div>
       <div class="auth-buttons">
-        <button class="btn entrar">Entrar</button>
-        <button class="btn cadastrar">Cadastrar</button>
+        <button class="btn" id="btn-login">Entrar</button>
+        <button class="btn" id="btn-register">Cadastrar</button>
       </div>
     </div>
   </header>
@@ -48,12 +49,48 @@
       </div>
     </div>
   </main>
-  
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Marino's Pizzaria - Todos os direitos reservados</p>
+
+  <footer class="footer-institucional">
+    <div class="footer-top">
+      <nav class="footer-links">
+        <a href="#">Internacional</a>
+        <a href="#">Sobre a Pizza</a>
+        <a href="#">Políticas de Privacidade</a>
+        <a href="#">Seja um Franqueado</a>
+        <a href="#">Fale Conosco</a>
+        <a href="#">Termos de Uso</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="#"><img src="imgs/logo-footer/instagram.png" alt="Instagram" /></a>
+        <a href="#"><img src="imgs/logo-footer/icons8-facebook-novo-50.png"Facebook" /></a>
+        <a href="#"><img src="imgs/logo-footer/icons8-x-50.png" alt="X" /></a>
+        <a href="#"><img src="imgs/logo-footer/icons8-tiktok-50.png" alt="TikTok" /></a>
+        <a href="#"><img src="imgs/logo-footer/icons8-youtube-50.png" /></a>
+      </div>
+
+      <div class="footer-brand">
+        <a href="#"><img src="imgs/marino_s%20icon.png" alt="Logo-page" /></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        Serviço disponível nas áreas de entrega Marino's Pizza. Todos os nossos produtos CONTÊM GLÚTEN.
+        Alérgicos: nossos produtos podem conter traços de Trigo, Ovos, Leite e Soja.
+      </p>
+      <p>
+        SAC: <a href="mailto:relacionamento@marinos.com.br">relacionamento@marinos.com.br</a>
+      </p>
+      <p>
+        Preços "a partir de" podem variar. Endereço: Av. das Pizzas, 100 - Saborópolis - BR
+      </p>
+      <p>
+        Informações sobre uso de dados e pedidos de descadastramento: <a href="#">clique aqui</a>.
+      </p>
     </div>
   </footer>
+  <script type="module" src="./js/main.js"></script>
 </body>
 </html>
