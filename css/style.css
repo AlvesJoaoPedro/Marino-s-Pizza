@@ -41,6 +41,7 @@ header {
 .auth-buttons {
   display: flex;
   gap: 0.5rem;
+  align-items: center;
 }
 
 .btn {
@@ -54,6 +55,13 @@ header {
 
 .btn:hover {
   background-color: #8a1a1a;
+}
+
+.cart-link img {
+  width: 28px;  /* tamanho que achar melhor */
+  height: 28px;
+  cursor: pointer;
+  vertical-align: middle;
 }
 
 .hero {

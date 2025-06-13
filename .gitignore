@@ -1,0 +1,22 @@
+# Ignora dependências
+node_modules/
+
+# Ignora pasta de build
+dist/
+
+# Ignora arquivos temporários do Vite
+.vite/
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignora ambiente local
+.env.local
+.env.*.local
+
+# Outros arquivos comuns
+.DS_Store
+*.lock

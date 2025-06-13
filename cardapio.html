@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pizzaria Marino's</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/popup.css">
+  <link rel="stylesheet" href="css/cardapio.css">
+  <link rel="stylesheet" href="css/carrinhoPopup.css">
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <div class="logo">
+        <a href="index.html"><img src="imgs/marino_s icon.png" alt="Logo Marino's" /></a>
+      </div>
+      <div class="auth-buttons">
+        <button class="btn" id="btn-login">Entrar</button>
+        <button class="btn" id="btn-register">Cadastrar</button>
+        <a href="#" id="abrir-carrinho" class="cart-link" title="Carrinho">
+          <img src="imgs/carrinho-icon.svg" alt="Carrinho" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>A melhor pizza da cidade!</h2>
+      <p>Peça agora e receba quentinha na sua casa.</p>
+    </div>
+  </section>
+
+  <main>
+    <!-- Conteúdo do cardápio virá futuramente -->
+  </main>
+
+  <footer class="footer-institucional">
+    <div class="footer-top">
+      <nav class="footer-links">
+        <a href="#">Internacional</a>
+        <a href="#">Sobre a Pizza</a>
+        <a href="#">Políticas de Privacidade</a>
+        <a href="#">Seja um Franqueado</a>
+        <a href="#">Fale Conosco</a>
+        <a href="#">Termos de Uso</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="#"><img src="imgs/logo-footer/instagram.png" alt="Instagram" /></a>
+        <a href="#"><img src="imgs/logo-footer/icons8-facebook-novo-50.png" alt="Facebook" /></a>
+        <a href="#"><img src="imgs/logo-footer/icons8-x-50.png" alt="X" /></a>
+        <a href="#"><img src="imgs/logo-footer/icons8-tiktok-50.png" alt="TikTok" /></a>
+        <a href="#"><img src="imgs/logo-footer/icons8-youtube-50.png" alt="YouTube" /></a>
+      </div>
+
+      <div class="footer-brand">
+        <a href="#"><img src="imgs/marino_s%20icon.png" alt="Logo-page" /></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        Serviço disponível nas áreas de entrega Marino's Pizza. Todos os nossos produtos CONTÊM GLÚTEN.
+        Alérgicos: nossos produtos podem conter traços de Trigo, Ovos, Leite e Soja.
+      </p>
+      <p>
+        SAC: <a href="mailto:relacionamento@marinos.com.br">relacionamento@marinos.com.br</a>
+      </p>
+      <p>
+        Preços "a partir de" podem variar. Endereço: Av. das Pizzas, 100 - Saborópolis - BR
+      </p>
+      <p>
+        Informações sobre uso de dados e pedidos de descadastramento: <a href="#">clique aqui</a>.
+      </p>
+    </div>
+  </footer>
+
+    <!-- Popup do Carrinho -->
+    <div id="popup-carrinho" class="hidden">
+      <div class="popup-conteudo">
+        <button id="fechar-popup" class="fechar-btn">&times;</button>
+        <h2>Seu Carrinho</h2>
+        <div id="itens-carrinho">
+          <!-- Itens aparecem aqui -->
+        </div>
+        <div class="total-carrinho">
+          Total: R$ <span id="total-carrinho">0,00</span>
+        </div>
+        <button id="finalizar-compra" class="btn-finalizar">Finalizar Compra</button>
+      </div>
+    </div>
+
+  <script type="module" src="./js/main.js"></script>
+  <script type="module" src="js/cardapio.js"></script>
+  <script type="module" src="js/carrinhoPopup.js"></script>
+</body>
+</html>
