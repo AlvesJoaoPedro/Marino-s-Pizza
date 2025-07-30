@@ -1,0 +1,13 @@
+.hero {
+    background-image: url('../assets/imgs/pizzaBanner.png');
+    background-size: cover;
+    background-position: 50% 30%;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }

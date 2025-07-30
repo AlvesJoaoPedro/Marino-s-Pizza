@@ -1,0 +1,36 @@
+header
+{
+    background-color: #312113;
+    padding: 1rem 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 52px;
+  }
+
+  .btn {
+    background-color: #a32020; /* vermelho escuro */
+    color: white;
+    padding: 0.4rem 0.8rem;
+    margin: 5px; /*   ACABEI DE ADICIONAR ISSO, NAO FAZ PARTE DO CSS ORIGINAL DO PROJETO, LEMBRAR DE TIRAR CASO DÊ PROBLEMA.   */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #8a1a1a;
+  }
+
+  .cart-link img {
+    width: 28px;  /* tamanho que achar melhor */
+    height: 28px;
+    cursor: pointer;
+    vertical-align: middle;
+  }
