@@ -1,5 +1,5 @@
-import './css/Global.css';
-import './css/Hero.css';
+import '../css/Global.css';
+import '../css/Hero.css';
 
 function Hero()
 {

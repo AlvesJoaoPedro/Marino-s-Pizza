@@ -1,11 +1,11 @@
-import './css/Global.css';
-import './css/Footer.css';
-import FacebookIcon from '../src/assets/imgs/facebook-icon.png';
-import InstagramIcon from '../src/assets/imgs/instagram.png';
-import TiktokIcon from '../src/assets/imgs/tiktok-icon.png';
-import XIcon from '../src/assets/imgs/x-icon.png';
-import YoutubeIcon from '../src/assets/imgs/youtube-icon.png';
-import MarinoIcon from '../src/assets/imgs/marino_s icon.png';
+import '../css/Global.css';
+import '../css/Footer.css';
+import FacebookIcon from '../assets/imgs/facebook-icon.png';
+import InstagramIcon from '../assets/imgs/instagram.png';
+import TiktokIcon from '../assets/imgs/tiktok-icon.png';
+import XIcon from '../assets/imgs/x-icon.png';
+import YoutubeIcon from '../assets/imgs/youtube-icon.png';
+import MarinoIcon from '../assets/imgs/marino_s icon.png';
 
 function Footer()
 {

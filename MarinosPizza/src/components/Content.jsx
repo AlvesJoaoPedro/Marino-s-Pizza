@@ -1,8 +1,8 @@
-import './css/Global.css';
-import './css/Content.css';
-import bannerPrincipal from './assets/imgs/banner-principal.png';
-import promo40 from './assets/imgs/promo40.png';
-import montePizza from './assets/imgs/monte-pizza.png'
+import '../css/Global.css';
+import '../css/Content.css';
+import bannerPrincipal from '../assets/imgs/banner-principal.png';
+import promo40 from '../assets/imgs/promo40.png';
+import montePizza from '../assets/imgs/monte-pizza.png'
 
 function Main()
 {
@@ -11,7 +11,7 @@ function Main()
         <div className="container promocoes">
             <div className="container promo-grid">
                 <div className="banner-principal">
-                    <a href="cardapio.html">
+                    <a href="/cardapio">
                     <img src={bannerPrincipal} alt="Promoção principal" />
                     </a>
                 </div>

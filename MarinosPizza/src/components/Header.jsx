@@ -1,7 +1,7 @@
-import './css/Header.css';
-import './css/Global.css';
-import logo from './assets/imgs/marino_s icon.png';
-import carrinhoLogo from './assets/imgs/carrinho-icon.svg';
+import '../css/Header.css';
+import '../css/Global.css';
+import logo from '../assets/imgs/marino_s icon.png';
+import carrinhoLogo from '../assets/imgs/carrinho-icon.svg';
 
 function Header()
 {

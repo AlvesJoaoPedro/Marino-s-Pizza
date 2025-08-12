@@ -1,0 +1,27 @@
+.card-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .card-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card-controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .card-contador {
+    min-width: 20px;
+    text-align: center;
+  }
+  
